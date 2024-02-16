@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/vnv_engine
+../../../vnv_engine
 
 # testing
 /coverage
