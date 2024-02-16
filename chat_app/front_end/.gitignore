@@ -2,9 +2,9 @@
 
 # dependencies
 /node_modules
+/django
 /.pnp
 .pnp.js
-../../../vnv_engine
 
 # testing
 /coverage
