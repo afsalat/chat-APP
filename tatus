@@ -1,0 +1,53 @@
+[33mcommit 1198b7448297b2a1c2d4efdf23d7c2fd4a35e2cd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Afsal AT <afsalat9@gmail.com>
+Date:   Mon Feb 19 05:08:16 2024 -0800
+
+    test 2 passed
+
+[33mcommit 9c5f63d6cd2d6a37ca24ac6ab87b6df4c127c380[m
+Author: Afsal AT <afsalat9@gmail.com>
+Date:   Sun Feb 18 09:52:03 2024 -0800
+
+    test 1 passed
+
+[33mcommit 81908687dabab60581eefc5258527e95e3e64986[m
+Author: AFSAL  .AT <85079867+afsalat@users.noreply.github.com>
+Date:   Fri Feb 16 22:45:02 2024 +0530
+
+    Update .gitignore
+
+[33mcommit 0a2fd6f962d42c6bf8cfcceb7ce3099d4e409848[m
+Author: Afsal-AT <afsalat@gmail.com>
+Date:   Fri Feb 16 22:40:12 2024 +0530
+
+    ignore file modified
+
+[33mcommit b6b472b50d3669d13428dc05f892c7ce52d73df1[m
+Author: Afsal-AT <afsalat@gmail.com>
+Date:   Fri Feb 16 22:26:38 2024 +0530
+
+    git included
+
+[33mcommit cdaedab22ae9747f927c21bee446b336d85fe60b[m
+Author: Afsal-AT <afsalat@gmail.com>
+Date:   Fri Feb 16 22:18:43 2024 +0530
+
+    sample test passed
+
+[33mcommit 2f963ae50cd74de17ff4602cfb5e55fa2c42b58c[m
+Author: Afsal-AT <afsalat@gmail.com>
+Date:   Wed Feb 14 22:50:50 2024 +0530
+
+    gitignore vnv_engine folder
+
+[33mcommit c7edd534b0a464f025dcf81ca66a6fcffd37ab3b[m
+Author: Afsal-AT <afsalat@gmail.com>
+Date:   Wed Feb 14 22:48:15 2024 +0530
+
+    basic intergration process completed
+
+[33mcommit 55ffa10345f721f8b9514dd43bc2333a08110e8a[m
+Author: Afsal-AT <afsalat@gmail.com>
+Date:   Tue Feb 13 22:22:27 2024 +0530
+
+    first commit - react and django already installation completed
