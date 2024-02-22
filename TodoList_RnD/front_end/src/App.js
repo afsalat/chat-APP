@@ -1,14 +1,38 @@
-import './App.css';
+// ProductList.js
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
+const ProductList = () => {
+  const [cts, setCts] = useState([]);
 
-function App() {
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('/api/products/');
+        setCts(response.data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
-    <div className="App">
-      <h1>The first test going on....!</h1>
-      <p>test 1 proceded</p>
-      <h3>name : {'Data'}</h3>
+    <div>
+      <h1>Products</h1>
+      <ul>
+        {cts.map(product => (
+          <li key={product.username}>
+            {product.map(pro => (
+              <s>{pro.usernam}</s>
+            ))}
+          </li>
+              
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
-export default App;
+export default ProductList;
