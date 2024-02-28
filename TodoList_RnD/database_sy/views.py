@@ -1,12 +1,23 @@
 # from django.shortcuts import render
 from database_sy.models import table_yy
-from django.http import JsonResponse
-
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from .serializer import ReactSerializer
 # Create your views here.
 
-def storage(request):
-    
-    cts = table_yy.objects.all()
-    data = [{'username': ct.username, 'passward': ct.passward} for ct in cts]
+class storage(APIView):
 
-    return JsonResponse(data, safe=False)
+    def get(self, request):
+        output = [{
+            "username": output.username,
+            "passward": output.passward
+        } for output in table_yy.objects.all()]
+
+        return Response(output)
+
+    def post(self, request):
+        serializer = ReactSerializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data)
+

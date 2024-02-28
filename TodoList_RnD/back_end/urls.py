@@ -1,9 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
+# from django.conf.urls import url
+from database_sy.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('api-auth/', include('rest_framework.urls')),
-    path("", include('database_sy.urls'))
-    # path('',views.index, name="index")
+    path('', table_yy.as_view(), name="some")
 ]
