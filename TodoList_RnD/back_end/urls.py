@@ -5,5 +5,5 @@ from database_sy.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', table_yy.as_view(), name="some")
+    path('', storage.as_view(), name="some")
 ]

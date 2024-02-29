@@ -6,4 +6,4 @@ class ReactSerializer(serializers.ModelSerializer):
     class Meta: 
 
         Model = table_yy
-        fields = ['username','password'] 
+        fields = ('username','password')
