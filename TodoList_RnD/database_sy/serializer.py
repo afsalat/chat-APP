@@ -4,6 +4,5 @@ from .models import *
 class ReactSerializer(serializers.ModelSerializer):
 
     class Meta: 
-
-        Model = table_yy
-        fields = ('username','password')
+        model = table_yy
+        fields = ['username','passward',]

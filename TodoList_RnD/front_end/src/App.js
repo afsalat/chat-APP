@@ -10,7 +10,7 @@ const ProductList = () => {
   const click = () => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('');
+        const response = await axios.get('/database_sy/');
         setCts(response.data);
         console.log(response.data);
       } catch (error) {
