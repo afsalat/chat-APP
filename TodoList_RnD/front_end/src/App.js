@@ -31,7 +31,10 @@ const ProductList = () => {
           return(
           <li key={pro.name}>
             Name :  {pro}
+            <h1>test passed</h1>
           </li>
+
+          
           )
         })}
 
